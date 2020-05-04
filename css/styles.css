@@ -1,0 +1,200 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Be Vietnam";
+}
+
+img {
+  height: auto;
+  width: 25%;
+  border-radius: 50%;
+  border: 5px solid #32a6cd;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  color: #32a6cd;
+}
+
+.container {
+  padding: 30px 60px;
+}
+
+header ul li,
+.bottom-menu ul li,
+.socmed ul li,
+.row,
+.box {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+/*----- Landing Page -----*/
+header {
+  padding: 20px;
+}
+
+#header-picture {
+  width: 150px;
+  height: auto;
+  float: left;
+}
+
+.navbar-menu {
+  float: right;
+}
+
+nav ul li {
+  padding: 30px 20px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #32a6cd;
+  font-weight: 600;
+}
+
+.landing-page {
+  background-color: #addbeb;
+  color: #46afd2;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-size: 40px;
+  font-family: "Sofia";
+}
+
+.name-description {
+  text-align: center;
+}
+
+#landing-page-picture {
+  margin: 20px auto;
+  display: block;
+  border: none;
+  height: auto;
+  width: 40%;
+}
+
+/*------ Perkenalan diri ------*/
+.perkenalan {
+  padding-bottom: 25px;
+}
+
+#my-picture {
+  margin: 20px auto;
+  display: block;
+}
+
+.profile-heading {
+  font-size: 40px;
+}
+
+/*----- Profil Diri Lengkap ------*/
+.profil-lengkap {
+  background-color: #fafafa;
+  padding-top: 25px;
+}
+
+.left-side-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.right-side-img {
+  float: right;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #46afd2;
+}
+
+.clear {
+  clear: both;
+}
+
+.description {
+  font-size: 23px;
+}
+
+.pendidikan ul {
+  position: relative;
+  left: 30px;
+}
+
+.pendidikan ul li {
+  list-style-image: url("../images/tick.png");
+}
+
+.box {
+  height: 60px;
+  width: 380px;
+  font-size: 15px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+  border: none;
+  border-radius: 0%;
+  width: 50px;
+  height: auto;
+  float: left;
+  margin: 6px 10px 0 10px;
+}
+
+.box-inner {
+  font-size: 15px;
+}
+
+.box-inner h4 {
+  margin: 5px;
+  color: #46afd2;
+}
+
+.matkul-inner {
+  position: relative;
+  top: -20px;
+}
+
+/*------ Footer ------*/
+footer {
+  height: 200px;
+  background-color: #8c8c8c;
+  padding-top: 50px;
+}
+
+.bottom-menu ul,
+.socmed ul {
+  text-align: center;
+  padding: 0;
+}
+
+.bottom-menu ul li,
+.socmed ul li {
+  padding: 10px 20px;
+}
+
+.bottom-menu ul li a,
+.socmed ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+hr {
+  width: 10%;
+  border: 1.5px solid white;
+}
