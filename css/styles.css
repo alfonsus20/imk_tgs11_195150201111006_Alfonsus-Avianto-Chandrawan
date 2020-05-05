@@ -101,6 +101,11 @@ nav ul li a {
   font-size: 2.5rem;
 }
 
+table tbody td:first-child{
+    color: #46afd2;
+    font-weight: 600;
+}
+
 /*----- Profil Diri Lengkap ------*/
 .profil-lengkap {
   background-color: #fafafa;
